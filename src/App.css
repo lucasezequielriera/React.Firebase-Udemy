@@ -1,3 +1,9 @@
+a {
+  color: blue;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .App {
   text-align: center;
 }
