@@ -1,7 +1,10 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import uniqid from 'uniqid';
+import { useParams } from 'react-router-dom';
 
 const Listadodenombres = () => {
+
+    const {id} = useParams()
 
     const [nombre, setNombre] = useState('');
     const [listanombres, setlistanombres] = useState([]);
@@ -44,6 +47,7 @@ const Listadodenombres = () => {
                     </form>
                 </div>
             </div>
+            <h1>{id}</h1>
         </div>
     )
 }

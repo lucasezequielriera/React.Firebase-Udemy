@@ -22,7 +22,7 @@ function App() {
           />
         </Route>
 
-        <Route path="/inicio">
+        <Route path="/inicio/:id">
           <br />Estas en Inicio
           <div className="container">
             <Listadodenombres />
