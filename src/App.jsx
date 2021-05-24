@@ -4,6 +4,7 @@ import './App.css';
 // import Formulario from './components/formulario';
 import Listadodenombres from './components/listadodenombres';
 import Bienvenida from './components/bienvenida';
+import Usuarios from './components/usuarios';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
             edad="25"
           />
         </Route>
+
+        <Route path="/inicio"><Usuarios /></Route>
 
         <Route path="/inicio/:id">
           <br />Estas en Inicio
