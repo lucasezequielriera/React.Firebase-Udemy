@@ -23,9 +23,11 @@ function App() {
           />
         </Route>
 
-        <Route path="/inicio"><Usuarios /></Route>
+        <Route path="/inicio">
+          <Usuarios />
+        </Route>
 
-        <Route path="/inicio/:id">
+        <Route path="/base">
           <br />Estas en Inicio
           <div className="container">
             <Listadodenombres />
